@@ -28,6 +28,8 @@ languages_and_tools(lang=["Java", "Python", "Typescript"], tools=["Flask", "Djan
 
 # Current Projects
 ```py
+from typing import List
+
 def projects(some_projects: List[str]):
     return some_projects
 
