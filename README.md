@@ -13,7 +13,7 @@ class Brain:
 
 i_like_coding = Brain(dumb=True)
 
-i_like_coding.who_am_i(i=["Backend Developer", "Likes soccer"], am="Michaael", michael="me")
+i_like_coding.who_am_i(i=["Backend Developer & Platform Developer", "Likes soccer"], am="Michaael", michael="me")
 ```
 
 # Languages & Tools
