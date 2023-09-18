@@ -33,5 +33,5 @@ from typing import List
 def projects(some_projects: List[str]):
     return some_projects
 
-projects(["OrderPlatform", "PlatformAutomation", "ReverseCommand", "a few more secret ones :)"])
+projects(["OrderPlatform", "MichaelPlatform", "PlatformDatabase", "a few more secret ones :)"])
 ```
