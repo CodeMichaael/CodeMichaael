@@ -23,7 +23,7 @@ from typing import List
 def languages_and_tools(lang: List[str], tools: [str]):
     return lang, tools
 
-languages_and_tools(lang=["Java", "Python", "Typescript"], tools=["Flask", "Django", "NoSQL"])
+languages_and_tools(lang=["Java", "Python", "Typescript", "Go"], tools=["Flask", "Django", "NoSQL"])
 ```
 
 # Current Projects
