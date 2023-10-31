@@ -1,37 +1,36 @@
 # Unnecessary Introduction 
-```py
-from typing import Optional
+```java
+import java.util.ArrayList;
+import java.util.List;
 
-class Brain:
+class Brain <E, Q> {
+    private E dumb;
+    private Q smartPercentage;
+    private List<String> projects = new ArrayList<>();
+    private List<String> languagesAndTools = new ArrayList<>(); 
 
-    def __init__(self, dumb: Optional[bool] = False, smart=True):
-        self.dum = dumb
-        self.smart = smart
-    
-    def who_am_i(self, i, am, michael):
-        return i, am, michael
+    public Brain (E dumb, Q smartPercentage) {
+        this.dumb = dumb;
+        this.smartPercentage = smartPercentage;
 
-i_like_coding = Brain(dumb=True)
+        System.out.print("It's "+dumb+" that Michael is dumb, his IQ of smartness is "+smartPercentage);
+    }
 
-i_like_coding.who_am_i(i=["Backend Developer & Platform Developer", "Likes soccer"], am="Michaael", michael="me")
-```
+    public String projects() {
+        projects.add("MichaelPlatform");
+        projects.add("ExternalPlatforms");
 
-# Languages & Tools
-```py
-from typing import List
+        for (String item:projects) {
+            System.out.println("Project, "+item);
+        }
+        return "";
+    }
 
-def languages_and_tools(lang: List[str], tools: [str]):
-    return lang, tools
-
-languages_and_tools(lang=["Java", "Python", "Typescript", "Go"], tools=["Django", "Docker", "NoSQL"])
-```
-
-# Current Projects
-```py
-from typing import List
-
-def projects(some_projects: List[str]):
-    return some_projects
-
-projects(["MichaelPlatform", "PlatformMicro", "and few more secret ones :)"])
+    public List<String> languagesAndTools() {
+        languagesAndTools.add("Java");
+        languagesAndTools.add("Python");
+        languagesAndTools.add("Docker");
+        return languagesAndTools;
+    }   
+}
 ```
