@@ -16,17 +16,13 @@ class Brain <E, Q> {
         System.out.print("It's "+dumb+" that Michael is dumb, his IQ of smartness is "+smartPercentage);
     }
 
-    public String projects() {
+    public String getProjects() {
         projects.add("MichaelPlatform");
         projects.add("ExternalPlatforms");
-
-        for (String item:projects) {
-            System.out.println("Project, "+item);
-        }
-        return "";
+        return projects;
     }
 
-    public List<String> languagesAndTools() {
+    public List<String> getLanguagesAndTools() {
         languagesAndTools.add("Java");
         languagesAndTools.add("Python");
         languagesAndTools.add("Docker");
