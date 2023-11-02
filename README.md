@@ -6,8 +6,8 @@ import java.util.List;
 class Brain <E, Q> {
     private E dumb;
     private Q smartPercentage;
-    private List<String> projects = new ArrayList<>();
-    private List<String> languagesAndTools = new ArrayList<>(); 
+    private List<String> projects;
+    private List<String> languagesAndTools; 
 
     public Brain (E dumb, Q smartPercentage) {
         this.dumb = dumb;
