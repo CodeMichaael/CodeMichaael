@@ -25,6 +25,7 @@ class Brain <E, Q> {
     public List<String> getLanguagesAndTools() {
         languagesAndTools.add("Java");
         languagesAndTools.add("Python");
+        languagesAndTools.add("C-Sharp");
         languagesAndTools.add("Docker");
         return languagesAndTools;
     }   
